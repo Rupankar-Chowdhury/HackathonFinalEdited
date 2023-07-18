@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-18T17:22:19 IST" name="Suite" finished-at="2023-07-18T17:22:54 IST" duration-ms="35505">
+    <groups>
+    </groups>
+    <test started-at="2023-07-18T17:22:19 IST" name="Test" finished-at="2023-07-18T17:22:54 IST" duration-ms="35505">
+      <class name="Test.TravelInsuranceTest">
+        <test-method is-config="true" signature="log()[pri:0, instance:Test.TravelInsuranceTest@6676f6a0]" started-at="2023-07-18T17:22:19 IST" name="log" finished-at="2023-07-18T17:22:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:Test.TravelInsuranceTest@6676f6a0]" started-at="2023-07-18T17:22:19 IST" name="openBrowser" finished-at="2023-07-18T17:22:21 IST" duration-ms="2065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Test.TravelInsuranceTest@6676f6a0]" started-at="2023-07-18T17:22:21 IST" name="initialize" finished-at="2023-07-18T17:22:21 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="openWebsite()[pri:0, instance:Test.TravelInsuranceTest@6676f6a0]" started-at="2023-07-18T17:22:21 IST" name="openWebsite" finished-at="2023-07-18T17:22:26 IST" duration-ms="4460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method signature="travel_insurance_button()[pri:1, instance:Test.TravelInsuranceTest@6676f6a0]" started-at="2023-07-18T17:22:26 IST" name="travel_insurance_button" finished-at="2023-07-18T17:22:26 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travel_insurance_button -->
+        <test-method signature="country_selection()[pri:0, instance:Test.TravelInsuranceTest@6676f6a0]" started-at="2023-07-18T17:22:26 IST" name="country_selection" finished-at="2023-07-18T17:22:29 IST" depends-on-methods="Test.TravelInsuranceTest.travel_insurance_button" duration-ms="3075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- country_selection -->
+        <test-method signature="checkInOut_Date()[pri:0, instance:Test.TravelInsuranceTest@6676f6a0]" started-at="2023-07-18T17:22:29 IST" name="checkInOut_Date" finished-at="2023-07-18T17:22:30 IST" depends-on-methods="Test.TravelInsuranceTest.country_selection" duration-ms="1215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInOut_Date -->
+        <test-method signature="people_and_age()[pri:0, instance:Test.TravelInsuranceTest@6676f6a0]" started-at="2023-07-18T17:22:30 IST" name="people_and_age" finished-at="2023-07-18T17:22:31 IST" depends-on-methods="Test.TravelInsuranceTest.checkInOut_Date" duration-ms="1087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- people_and_age -->
+        <test-method signature="disease()[pri:0, instance:Test.TravelInsuranceTest@6676f6a0]" started-at="2023-07-18T17:22:31 IST" name="disease" finished-at="2023-07-18T17:22:32 IST" depends-on-methods="Test.TravelInsuranceTest.people_and_age" duration-ms="1270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disease -->
+        <test-method signature="mobileNo(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test.TravelInsuranceTest@6676f6a0]" started-at="2023-07-18T17:22:33 IST" name="mobileNo" data-provider="getData" finished-at="2023-07-18T17:22:33 IST" depends-on-methods="Test.TravelInsuranceTest.disease" duration-ms="252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9163014480]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupankar Chowdhury]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xxx@xxxx]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileNo -->
+        <test-method signature="age_of_students()[pri:0, instance:Test.TravelInsuranceTest@6676f6a0]" started-at="2023-07-18T17:22:33 IST" name="age_of_students" finished-at="2023-07-18T17:22:37 IST" depends-on-methods="Test.TravelInsuranceTest.mobileNo" duration-ms="4103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- age_of_students -->
+        <test-method signature="duration()[pri:0, instance:Test.TravelInsuranceTest@6676f6a0]" started-at="2023-07-18T17:22:37 IST" name="duration" finished-at="2023-07-18T17:22:38 IST" depends-on-methods="Test.TravelInsuranceTest.age_of_students" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duration -->
+        <test-method signature="sort_low_to_high()[pri:0, instance:Test.TravelInsuranceTest@6676f6a0]" started-at="2023-07-18T17:22:38 IST" name="sort_low_to_high" finished-at="2023-07-18T17:22:39 IST" depends-on-methods="Test.TravelInsuranceTest.duration" duration-ms="1297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sort_low_to_high -->
+        <test-method signature="display_3_lowest_plans()[pri:0, instance:Test.TravelInsuranceTest@6676f6a0]" started-at="2023-07-18T17:22:39 IST" name="display_3_lowest_plans" finished-at="2023-07-18T17:22:40 IST" depends-on-methods="Test.TravelInsuranceTest.sort_low_to_high" duration-ms="1197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display_3_lowest_plans -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Test.TravelInsuranceTest@6676f6a0]" started-at="2023-07-18T17:22:40 IST" name="close" finished-at="2023-07-18T17:22:41 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="reportend()[pri:0, instance:Test.TravelInsuranceTest@6676f6a0]" started-at="2023-07-18T17:22:54 IST" name="reportend" finished-at="2023-07-18T17:22:54 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportend -->
+      </class> <!-- Test.TravelInsuranceTest -->
+      <class name="Test.HealthInsuranceTest">
+        <test-method is-config="true" signature="log()[pri:0, instance:Test.HealthInsuranceTest@5e3d57c7]" started-at="2023-07-18T17:22:19 IST" name="log" finished-at="2023-07-18T17:22:19 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:Test.HealthInsuranceTest@5e3d57c7]" started-at="2023-07-18T17:22:50 IST" name="openBrowser" finished-at="2023-07-18T17:22:50 IST" duration-ms="959" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Test.HealthInsuranceTest@5e3d57c7]" started-at="2023-07-18T17:22:50 IST" name="initialize" finished-at="2023-07-18T17:22:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="openWebsite()[pri:0, instance:Test.HealthInsuranceTest@5e3d57c7]" started-at="2023-07-18T17:22:50 IST" name="openWebsite" finished-at="2023-07-18T17:22:53 IST" duration-ms="2554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method signature="hover_on_insuranceProducts_dropdown()[pri:1, instance:Test.HealthInsuranceTest@5e3d57c7]" started-at="2023-07-18T17:22:53 IST" name="hover_on_insuranceProducts_dropdown" finished-at="2023-07-18T17:22:53 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hover_on_insuranceProducts_dropdown -->
+        <test-method signature="extract_HealthInsurance_menu_items()[pri:0, instance:Test.HealthInsuranceTest@5e3d57c7]" started-at="2023-07-18T17:22:53 IST" name="extract_HealthInsurance_menu_items" finished-at="2023-07-18T17:22:54 IST" depends-on-methods="Test.HealthInsuranceTest.hover_on_insuranceProducts_dropdown" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extract_HealthInsurance_menu_items -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Test.HealthInsuranceTest@5e3d57c7]" started-at="2023-07-18T17:22:54 IST" name="close" finished-at="2023-07-18T17:22:54 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Test.HealthInsuranceTest -->
+      <class name="Test.VehicleInsuranceTest">
+        <test-method is-config="true" signature="log()[pri:0, instance:Test.VehicleInsuranceTest@6bf08014]" started-at="2023-07-18T17:22:19 IST" name="log" finished-at="2023-07-18T17:22:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:Test.VehicleInsuranceTest@6bf08014]" started-at="2023-07-18T17:22:41 IST" name="openBrowser" finished-at="2023-07-18T17:22:42 IST" duration-ms="1116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Test.VehicleInsuranceTest@6bf08014]" started-at="2023-07-18T17:22:42 IST" name="initialize" finished-at="2023-07-18T17:22:42 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="openWebsite()[pri:0, instance:Test.VehicleInsuranceTest@6bf08014]" started-at="2023-07-18T17:22:42 IST" name="openWebsite" finished-at="2023-07-18T17:22:44 IST" duration-ms="2730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method signature="hover_select()[pri:1, instance:Test.VehicleInsuranceTest@6bf08014]" started-at="2023-07-18T17:22:44 IST" name="hover_select" finished-at="2023-07-18T17:22:46 IST" duration-ms="1884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hover_select -->
+        <test-method signature="proceed_without_no()[pri:2, instance:Test.VehicleInsuranceTest@6bf08014]" started-at="2023-07-18T17:22:46 IST" name="proceed_without_no" finished-at="2023-07-18T17:22:46 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceed_without_no -->
+        <test-method signature="city_region()[pri:3, instance:Test.VehicleInsuranceTest@6bf08014]" started-at="2023-07-18T17:22:46 IST" name="city_region" finished-at="2023-07-18T17:22:48 IST" duration-ms="1344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- city_region -->
+        <test-method signature="brand_model()[pri:4, instance:Test.VehicleInsuranceTest@6bf08014]" started-at="2023-07-18T17:22:48 IST" name="brand_model" finished-at="2023-07-18T17:22:48 IST" duration-ms="587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brand_model -->
+        <test-method signature="fuel_type_variant()[pri:5, instance:Test.VehicleInsuranceTest@6bf08014]" started-at="2023-07-18T17:22:48 IST" name="fuel_type_variant" finished-at="2023-07-18T17:22:49 IST" duration-ms="322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fuel_type_variant -->
+        <test-method signature="reg_year()[pri:6, instance:Test.VehicleInsuranceTest@6bf08014]" started-at="2023-07-18T17:22:49 IST" name="reg_year" finished-at="2023-07-18T17:22:49 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reg_year -->
+        <test-method signature="invalidDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:Test.VehicleInsuranceTest@6bf08014]" started-at="2023-07-18T17:22:49 IST" name="invalidDetails" data-provider="getData" finished-at="2023-07-18T17:22:49 IST" duration-ms="411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9163014480]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupankar Chowdhury]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xxx@xxxx]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDetails -->
+        <test-method signature="invalidDetails_message_capture()[pri:8, instance:Test.VehicleInsuranceTest@6bf08014]" started-at="2023-07-18T17:22:49 IST" name="invalidDetails_message_capture" finished-at="2023-07-18T17:22:49 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidDetails_message_capture -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Test.VehicleInsuranceTest@6bf08014]" started-at="2023-07-18T17:22:49 IST" name="close" finished-at="2023-07-18T17:22:50 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Test.VehicleInsuranceTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
